@@ -13,9 +13,13 @@ int main() {
         // mengecek jika angka negatif maka program selesai
         if (angka < 0) {
             cout << "Maaf, angka yang anda masukkan bernilai negatif. Program selesai :(" << endl;
-            return 0;
+            exit(0);
+            // return 0;
+            // break;
         }
     }
+
+    cout << "apa aja deh" << endl;
 
     return 0;
 }

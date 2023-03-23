@@ -38,7 +38,7 @@ int main() {
     // boolean
     // adalah tipe data yang isinya hanya true/false atau 1/0
 
-    bool lapar = true;
+    bool lapar = 0; // false = 0 | true = 1
 
     if(lapar) { // if (lapar == true)
         cout << "Makan blog" << endl;

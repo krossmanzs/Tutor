@@ -63,7 +63,7 @@ int getMax() {
 }
 
 void tampilkanArray(int data[], int size) {
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < size; i++) { // 0 - 7
         cout << data[i] << " ";
     }
 
@@ -82,7 +82,8 @@ int main() {
     
     cout << jumlah << endl;
 
-    int array1[5] = {2,3,1,25,2}, array2[8] = {5,2,2,1,6,8,89,2};
+    int array1[5] = {2,3,1,25,2}, 
+        array2[8] = {5,2,2,1,6,8,89,2};
 
     tampilkanArray(array1, 5);
     tampilkanArray(array2, 8);

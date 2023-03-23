@@ -26,14 +26,16 @@ int main() { // dalam fungsi
     float r = 5.2;
     float luasLingkaran = pi * r * r; 
 
+    //                k      0 1 2   0 1 2   0  1  2
     // int matriks[3][3] = {{9,3,4},{5,6,7},{11,12,1}};
+    //                 b       0       1         2
     int matriks[3][3] = {
         {9,3,4},
         {5,6,7},
         {11,12,1}
     };
 
-    cout << matriks[1][2] << endl;
+    cout << matriks[2][1] << endl;
 
     return 0;
 }
